@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textBlack</name>
+   <tag></tag>
+   <elementGuidId>f19258eb-7cb7-457d-a801-ad48cebf1d0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='editor']//strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='editor']//strong</value>
+      <webElementGuid>a5393445-1e31-432b-a5aa-0deadc7d8a01</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

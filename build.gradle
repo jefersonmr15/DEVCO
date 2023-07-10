@@ -1,0 +1,13 @@
+plugins {
+  id 'java'
+  id "com.katalon.gradle-plugin" version "0.1.1"
+  id "net.serenity-bdd.serenity-gradle-plugin" version "3.7.0"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'net.serenity-bdd:serenity-core:3.7.0'
+}

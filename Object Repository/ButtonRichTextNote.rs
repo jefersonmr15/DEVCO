@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonRichTextNote</name>
+   <tag></tag>
+   <elementGuidId>670308e2-a3b1-463d-b9a8-a0fc72aec92f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='v-pills-tab']/button[@id='richtextnote-tab']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='v-pills-tab']/button[@id='richtextnote-tab']</value>
+      <webElementGuid>3551b7e0-8b0a-4f5c-abe7-756779e2209d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f14f0208-4cce-4824-8ac9-a68a4db84782</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
