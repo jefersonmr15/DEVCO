@@ -1,0 +1,175 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "El usuario crea nota de tipo Nota de texto enriquecido y pone el texto en negrita",
+        "description": "",
+        "id": "crear-una-nota-de-texto-enriquecido-con-letra-en-negrita;el-usuario-crea-nota-de-tipo-nota-de-texto-enriquecido-y-pone-el-texto-en-negrita",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5379900900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "El usuario ingresa a la pagina web",
+            "match": {
+              "location": "Escenario.enterWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2496684900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "El usuario selecciona la opción Nota de texto enriquecido",
+            "match": {
+              "location": "Escenario.selectNote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2034348700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "El usuario ingresa un texto y lo sombrea",
+            "match": {
+              "location": "Escenario.enterText()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1118290500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "El usuario hace clic en el botón de negrita",
+            "match": {
+              "location": "Escenario.clickbuttonBlack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1550431700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "El sistema presenta el texto en negrita",
+            "match": {
+              "location": "Escenario.verifyTextBlack()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Eliminar un artículo de una lista de 5 elementos",
+        "description": "",
+        "id": "crear-una-nota-de-texto-enriquecido-con-letra-en-negrita;eliminar-un-artículo-de-una-lista-de-5-elementos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4075520200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "El usuario ingresa a la pagina web",
+            "match": {
+              "location": "Escenario.enterWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2490338500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "El usuario selecciona la opción Lista de tareas",
+            "match": {
+              "location": "Escenario.taskList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6345522500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "El usuario agrega 5 elementos a la lista",
+            "match": {
+              "location": "Escenario.addElements()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177991300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "El usuario elimina un elemento de la lista haciendo clic en el botón de eliminar",
+            "match": {
+              "location": "Escenario.deleteElement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671748600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "El usuario confirma que el elemento eliminado no aparece en la lista",
+            "match": {
+              "location": "Escenario.verifyElementDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Crear una nota de texto enriquecido con letra en negrita",
+    "description": "",
+    "id": "crear-una-nota-de-texto-enriquecido-con-letra-en-negrita",
+    "keyword": "Feature",
+    "uri": "E:/Entrevista/DEVCO/DEVCO/Include/features/Escenarios.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

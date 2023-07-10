@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="27.661289">
+<testcase classname="Crear una nota de texto enriquecido con letra en negrita" name="El usuario crea nota de tipo Nota de texto enriquecido y pone el texto en negrita" time="12.895433">
+<system-out><![CDATA[Given El usuario ingresa a la pagina web....................................passed
+And El usuario selecciona la opción Nota de texto enriquecido...............passed
+When El usuario ingresa un texto y lo sombrea...............................passed
+And El usuario hace clic en el botón de negrita.............................passed
+Then El sistema presenta el texto en negrita................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear una nota de texto enriquecido con letra en negrita" name="Eliminar un artículo de una lista de 5 elementos" time="14.765856">
+<system-out><![CDATA[Given El usuario ingresa a la pagina web....................................passed
+And El usuario selecciona la opción Lista de tareas.........................passed
+And El usuario agrega 5 elementos a la lista................................passed
+When El usuario elimina un elemento de la lista haciendo clic en el botón de eliminar.passed
+Then El usuario confirma que el elemento eliminado no aparece en la lista...passed
+]]></system-out>
+</testcase>
+</testsuite>
